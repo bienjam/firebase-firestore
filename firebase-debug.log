@@ -1,0 +1,223 @@
+[debug] [2023-02-01T13:35:54.764Z] ----------------------------------------------------------------------
+[debug] [2023-02-01T13:35:54.765Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BIEN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-02-01T13:35:54.766Z] CLI Version:   11.21.0
+[debug] [2023-02-01T13:35:54.766Z] Platform:      win32
+[debug] [2023-02-01T13:35:54.766Z] Node Version:  v16.17.0
+[debug] [2023-02-01T13:35:54.767Z] Time:          Wed Feb 01 2023 21:35:54 GMT+0800 (China Standard Time)
+[debug] [2023-02-01T13:35:54.767Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-01T13:35:54.845Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-01T13:35:54.846Z] > authorizing via signed-in user (jamonbienvenido@gmail.com)
+[debug] [2023-02-01T13:35:55.169Z] java version "19.0.2" 2023-01-17
+Java(TM) SE Runtime Environment (build 19.0.2+7-44)
+
+[debug] [2023-02-01T13:35:55.169Z] Java HotSpot(TM) 64-Bit Server VM (build 19.0.2+7-44, mixed mode, sharing)
+
+[debug] [2023-02-01T13:35:55.190Z] Parsed Java major version: 19
+[info] i  emulators: Starting emulators: functions, firestore, database, pubsub {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, firestore, database, pubsub"}}
+[debug] [2023-02-01T13:35:55.204Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-02-01T13:35:55.204Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-02-01T13:35:55.205Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-02-01T13:35:55.205Z] [database] Database Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-02-01T13:35:55.205Z] [pubsub] Pub/Sub Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-02-01T13:35:55.205Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}],"pubsub":[{"address":"127.0.0.1","family":"IPv4","port":8085}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-02-01T13:35:55.214Z] [hub] writing locator at C:\Users\BIEN\AppData\Local\Temp\hub-mamamia-test-ca081.json
+[debug] [2023-02-01T13:35:55.222Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-02-01T13:35:55.222Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-02-01T13:35:55.223Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}],"pubsub":[{"address":"127.0.0.1","family":"IPv4","port":8085}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, hosting, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, hosting, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2023-02-01T13:35:55.246Z] defaultcredentials: writing to file C:\Users\BIEN\AppData\Roaming\firebase\jamonbienvenido_gmail_com_application_default_credentials.json
+[debug] [2023-02-01T13:35:55.248Z] Setting GAC to C:\Users\BIEN\AppData\Roaming\firebase\jamonbienvenido_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\BIEN\\AppData\\Roaming\\firebase\\jamonbienvenido_gmail_com_application_default_credentials.json"}}
+[debug] [2023-02-01T13:35:55.250Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mamamia-test-ca081/adminSdkConfig [none]
+[debug] [2023-02-01T13:35:56.192Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mamamia-test-ca081/adminSdkConfig 200
+[debug] [2023-02-01T13:35:56.192Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mamamia-test-ca081/adminSdkConfig {"projectId":"mamamia-test-ca081","storageBucket":"mamamia-test-ca081.appspot.com"}
+[warn] !  firestore: Did not find a Cloud Firestore rules file specified in a firebase.json config file. {"metadata":{"emulator":{"name":"firestore"},"message":"Did not find a Cloud Firestore rules file specified in a firebase.json config file."}}
+[warn] !  firestore: The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration. {"metadata":{"emulator":{"name":"firestore"},"message":"The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration."}}
+[debug] [2023-02-01T13:35:56.208Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-02-01T13:35:56.208Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2023-02-01T13:35:56.208Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\BIEN\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.15.1.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","mamamia-test-ca081","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\BIEN\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.15.1.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"mamamia-test-ca081\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2023-02-01T13:35:57.787Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mamamia-test-ca081 [none]
+[debug] [2023-02-01T13:35:58.492Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mamamia-test-ca081 200
+[debug] [2023-02-01T13:35:58.492Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mamamia-test-ca081 {"projectId":"mamamia-test-ca081","projectNumber":"482534363165","displayName":"Mamamia-test","name":"projects/mamamia-test-ca081","resources":{"hostingSite":"mamamia-test-ca081"},"state":"ACTIVE","etag":"1_3c8b6313-2ea9-482a-ae7f-3b569984be1b"}
+[debug] [2023-02-01T13:35:58.492Z] database rules config:  []
+[warn] !  database: Did not find a Realtime Database rules file specified in a firebase.json config file. The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration. {"metadata":{"emulator":{"name":"database"},"message":"Did not find a Realtime Database rules file specified in a firebase.json config file. The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration."}}
+[debug] [2023-02-01T13:35:58.495Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2023-02-01T13:35:58.495Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-02-01T13:35:58.495Z] Ignoring unsupported arg: rules {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: rules"}}
+[debug] [2023-02-01T13:35:58.495Z] Starting Database Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","C:\\Users\\BIEN\\.cache\\firebase\\emulators\\firebase-database-emulator-v4.11.0.jar","--host","127.0.0.1","--port",9000,"--single_project_mode","Warning","--functions_emulator_host","127.0.0.1","--functions_emulator_port",5001],"optionalArgs":["port","host","functions_emulator_port","functions_emulator_host","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"database"},"message":"Starting Database Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\BIEN\\\\.cache\\\\firebase\\\\emulators\\\\firebase-database-emulator-v4.11.0.jar\",\"--host\",\"127.0.0.1\",\"--port\",9000,\"--single_project_mode\",\"Warning\",\"--functions_emulator_host\",\"127.0.0.1\",\"--functions_emulator_port\",5001],\"optionalArgs\":[\"port\",\"host\",\"functions_emulator_port\",\"functions_emulator_host\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  database: Database Emulator logging to database-debug.log {"metadata":{"emulator":{"name":"database"},"message":"Database Emulator logging to \u001b[1mdatabase-debug.log\u001b[22m"}}
+[debug] [2023-02-01T13:36:00.308Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"pubsub"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2023-02-01T13:36:00.308Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"pubsub"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-02-01T13:36:00.308Z] Starting Pub/Sub Emulator with command {"binary":"C:\\Users\\BIEN\\.cache\\firebase\\emulators\\pubsub-emulator-0.7.1\\pubsub-emulator\\bin\\cloud-pubsub-emulator.bat","args":["--host=127.0.0.1","--port=8085"],"optionalArgs":["port","host"],"joinArgs":true} {"metadata":{"emulator":{"name":"pubsub"},"message":"Starting Pub/Sub Emulator with command {\"binary\":\"C:\\\\Users\\\\BIEN\\\\.cache\\\\firebase\\\\emulators\\\\pubsub-emulator-0.7.1\\\\pubsub-emulator\\\\bin\\\\cloud-pubsub-emulator.bat\",\"args\":[\"--host=127.0.0.1\",\"--port=8085\"],\"optionalArgs\":[\"port\",\"host\"],\"joinArgs\":true}"}}
+[info] i  pubsub: Pub/Sub Emulator logging to pubsub-debug.log {"metadata":{"emulator":{"name":"pubsub"},"message":"Pub/Sub Emulator logging to \u001b[1mpubsub-debug.log\u001b[22m"}}
+[debug] [2023-02-01T13:36:01.610Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-02-01T13:36:01.611Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-02-01T13:36:01.611Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\BIEN\\.cache\\firebase\\emulators\\ui-v1.11.2\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\BIEN\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.2\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-02-01T13:36:01.955Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-02-01T13:36:01.955Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\BIEN\Desktop\firebase-firestore\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\BIEN\\Desktop\\firebase-firestore\\functions\" for Cloud Functions..."}}
+[debug] [2023-02-01T13:36:02.139Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2023-02-01T13:36:04.932Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2023-02-01T13:36:04.932Z] Building nodejs source
+[debug] [2023-02-01T13:36:04.934Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-02-01T13:36:05.146Z] Serving at port 9005
+
+[debug] [2023-02-01T13:36:05.211Z] Got response from /__/functions.yaml {"endpoints":{"endpoint":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/mamamia-test-ca081/databases/(default)/documents/userDetails/{documentId}"},"retry":false},"labels":{},"entryPoint":"endpoint"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-02-01T13:36:05.218Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: endpoint. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: endpoint."}}
+[debug] [2023-02-01T13:36:05.228Z] addFirestoreTrigger "{\"eventTrigger\":{\"eventType\":\"providers/cloud.firestore/eventTypes/document.create\",\"resource\":\"projects/mamamia-test-ca081/databases/(default)/documents/userDetails/{documentId}\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2023-02-01T13:36:05.229Z] >>> [apiv2][query] PUT http://127.0.0.1:8080/emulator/v1/projects/mamamia-test-ca081/triggers/us-central1-endpoint-0 [none]
+[debug] [2023-02-01T13:36:05.229Z] >>> [apiv2][body] PUT http://127.0.0.1:8080/emulator/v1/projects/mamamia-test-ca081/triggers/us-central1-endpoint-0 "{\"eventTrigger\":{\"eventType\":\"providers/cloud.firestore/eventTypes/document.create\",\"resource\":\"projects/mamamia-test-ca081/databases/(default)/documents/userDetails/{documentId}\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2023-02-01T13:36:05.830Z] <<< [apiv2][status] PUT http://127.0.0.1:8080/emulator/v1/projects/mamamia-test-ca081/triggers/us-central1-endpoint-0 200
+[debug] [2023-02-01T13:36:05.830Z] <<< [apiv2][body] PUT http://127.0.0.1:8080/emulator/v1/projects/mamamia-test-ca081/triggers/us-central1-endpoint-0 {}
+[info] +  functions[us-central1-endpoint]: firestore function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mfirestore\u001b[22m function initialized."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Firestore │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Database  │ 127.0.0.1:9000 │ http://127.0.0.1:4000/database  │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Pub/Sub   │ 127.0.0.1:8085 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-02-01T13:37:28.735Z] [work-queue] {"queuedWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:37:28.735Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:37:28.735Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:37:28.735Z"],"workRunningCount":1}
+[debug] [2023-02-01T13:37:28.736Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:37:48.822Z] [work-queue] {"queuedWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:37:48.822Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:37:48.822Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:37:48.822Z"],"workRunningCount":1}
+[debug] [2023-02-01T13:37:48.823Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:11.392Z] File C:\Users\BIEN\Desktop\firebase-firestore\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\BIEN\\Desktop\\firebase-firestore\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-02-01T13:38:12.392Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2023-02-01T13:38:14.710Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2023-02-01T13:38:14.710Z] Building nodejs source
+[debug] [2023-02-01T13:38:14.711Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-02-01T13:38:14.908Z] Serving at port 9005
+
+[debug] [2023-02-01T13:38:14.976Z] Got response from /__/functions.yaml {"endpoints":{"endpoint":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/mamamia-test-ca081/databases/(default)/documents/userDetails/{documentId}"},"retry":false},"labels":{},"entryPoint":"endpoint"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-02-01T13:38:14.980Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: endpoint. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: endpoint."}}
+[debug] [2023-02-01T13:38:44.070Z] [work-queue] {"queuedWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:44.070Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:44.070Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:44.070Z"],"workRunningCount":1}
+[debug] [2023-02-01T13:38:44.071Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:44.231Z] [work-queue] {"queuedWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:44.231Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:44.231Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:44.231Z"],"workRunningCount":1}
+[debug] [2023-02-01T13:38:44.231Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:44.382Z] [work-queue] {"queuedWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:44.382Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:44.382Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:44.382Z"],"workRunningCount":1}
+[debug] [2023-02-01T13:38:44.382Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:44.555Z] [work-queue] {"queuedWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:44.555Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:44.556Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:44.555Z"],"workRunningCount":1}
+[debug] [2023-02-01T13:38:44.556Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:44.731Z] [work-queue] {"queuedWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:44.731Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:44.731Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:44.731Z"],"workRunningCount":1}
+[debug] [2023-02-01T13:38:44.732Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:44.895Z] [work-queue] {"queuedWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:44.895Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:44.896Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:44.895Z"],"workRunningCount":1}
+[debug] [2023-02-01T13:38:44.896Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:45.072Z] [work-queue] {"queuedWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:45.072Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:45.073Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:45.072Z"],"workRunningCount":1}
+[debug] [2023-02-01T13:38:45.073Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:45.235Z] [work-queue] {"queuedWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:45.235Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-02-01T13:38:45.235Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mamamia-test-ca081/us-central1/endpoint-2023-02-01T13:38:45.235Z"],"workRunningCount":1}
+[debug] [2023-02-01T13:38:45.236Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[warn] !  firestore: Fatal error occurred: 
+   Firestore Emulator has exited with code: 3221225786, 
+   stopping all running emulators {"metadata":{"emulator":{"name":"firestore"},"message":"Fatal error occurred: \n   Firestore Emulator has exited with code: 3221225786, \n   stopping all running emulators"}}
+[info] i  ui: Stopping Emulator UI {"metadata":{"emulator":{"name":"ui"},"message":"Stopping Emulator UI"}}
+[warn] !  Emulator UI has exited upon receiving signal: SIGINT 
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  database: Stopping Database Emulator {"metadata":{"emulator":{"name":"database"},"message":"Stopping Database Emulator"}}
+[warn] !  Database Emulator has exited upon receiving signal: SIGINT 
+[info] i  firestore: Stopping Firestore Emulator {"metadata":{"emulator":{"name":"firestore"},"message":"Stopping Firestore Emulator"}}
+[debug] [2023-02-01T13:40:45.215Z] ^C {"metadata":{"emulator":{"name":"pubsub"},"message":"^C"}}
+[debug] [2023-02-01T13:40:45.218Z] Terminate batch job (Y/N)?  {"metadata":{"emulator":{"name":"pubsub"},"message":"Terminate batch job (Y/N)? "}}
+[debug] [2023-02-01T13:40:45.218Z] 
+ {"metadata":{"emulator":{"name":"pubsub"},"message":"\r\n"}}
+[warn] !  pubsub: Fatal error occurred: 
+   Pub/Sub Emulator has exited with code: 1, 
+   stopping all running emulators {"metadata":{"emulator":{"name":"pubsub"},"message":"Fatal error occurred: \n   Pub/Sub Emulator has exited with code: 1, \n   stopping all running emulators"}}
+[info] i  firestore: Stopping Firestore Emulator {"metadata":{"emulator":{"name":"firestore"},"message":"Stopping Firestore Emulator"}}
+[debug] [2023-02-01T13:40:47.154Z] Received signal SIGHUP 1
+[info]  
+[info] i  emulators: Received SIGHUP for the first time. Starting a clean shutdown. 
+[info] i  emulators: Please wait for a clean shutdown or send the SIGHUP signal again to stop right now. 
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  firestore: Stopping Firestore Emulator {"metadata":{"emulator":{"name":"firestore"},"message":"Stopping Firestore Emulator"}}
+[debug] [2023-02-01T13:40:48.223Z] Firestore Emulator: Unable to terminate process (PID=1584) {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator: Unable to terminate process (PID=1584)"}}
+[warn] !  firestore: Error stopping Firestore Emulator {"metadata":{"emulator":{"name":"firestore"},"message":"Error stopping Firestore Emulator"}}
+[info] i  pubsub: Stopping Pub/Sub Emulator {"metadata":{"emulator":{"name":"pubsub"},"message":"Stopping Pub/Sub Emulator"}}
+[debug] [2023-02-01T13:40:49.238Z] Firestore Emulator: Unable to terminate process (PID=1584) {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator: Unable to terminate process (PID=1584)"}}
+[warn] !  firestore: Error stopping Firestore Emulator {"metadata":{"emulator":{"name":"firestore"},"message":"Error stopping Firestore Emulator"}}
+[info] i  pubsub: Stopping Pub/Sub Emulator {"metadata":{"emulator":{"name":"pubsub"},"message":"Stopping Pub/Sub Emulator"}}
+[debug] [2023-02-01T13:40:51.157Z] Firestore Emulator: Unable to terminate process (PID=1584) {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator: Unable to terminate process (PID=1584)"}}
+[warn] !  firestore: Error stopping Firestore Emulator {"metadata":{"emulator":{"name":"firestore"},"message":"Error stopping Firestore Emulator"}}
+[info] i  pubsub: Stopping Pub/Sub Emulator {"metadata":{"emulator":{"name":"pubsub"},"message":"Stopping Pub/Sub Emulator"}}

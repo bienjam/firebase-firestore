@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container h5 {
+    margin-right: 10px;
+}
